@@ -4,7 +4,7 @@ session_start();
 $servername = "localhost";
 $username   = "root";
 $password   = "";
-$dbname     = "myDB";
+$dbname     = "demologin";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
